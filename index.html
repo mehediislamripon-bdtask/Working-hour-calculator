@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Working Hours Calculator</title>
+   </head>
+   <body>
+      <h1>Working Hours Calculator</h1>
+      <label for="todayHours">Today's Working Hours (HH:MM:SS):</label>
+      <input
+         type="text"
+         id="todayHours"
+         placeholder="Enter today's working hours"
+      />
+      <br />
+      <br />
+      <label for="previousDaysHours"
+         >Previous Days' Working Hours (HH:MM:SS):</label
+      >
+      <input
+         type="text"
+         id="previousDaysHours"
+         placeholder="Enter previous days' working hours"
+      />
+      <br />
+      <br />
+      <button id="calculateBtn">Calculate Now</button>
+      <br />
+      <div id="result"></div>
+
+      <script src="script.js"></script>
+   </body>
+</html>
